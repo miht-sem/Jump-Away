@@ -146,9 +146,4 @@ public class CubeJump : MonoBehaviour
             yield return new WaitForSeconds(0.05f);
         nextBlock = true;
     }
-    IEnumerator suck()
-    {
-        yield return new WaitForSeconds(1f);
-
-    }
 }
